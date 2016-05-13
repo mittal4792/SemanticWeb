@@ -1,0 +1,34 @@
+body{
+font-family:Rockwell,Courier Bold,Courier,Georgia,Times New Roman,serif;
+}
+.noDisplay{
+display:none;
+}
+.prescreen-palindrome{
+	color:#CD1F21;
+}
+.navbar.navbar-default{
+	background-color:#27353D;
+	
+}
+.navbar .navbar-brand{
+	color:white;
+	font-size:1.5em;
+
+}
+.marginTop{
+	margin-Top:75px;
+}
+.marginTopTab{
+margin-Top:20px;
+}
+.label-error{
+	color:#CA1D20;
+	font-size:1.2em;
+}
+.label-success{
+	color:green;
+	font-size:1.2em;
+	background-color:white;
+}
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jasmine Spec Runner</title>
+
+  <!-- loading jasmine -->
+  <link rel="stylesheet" type="text/css" href="assets/jasmine/tools/Jasmine/jasmine.css">
+  <script type="text/javascript" src="assets/jasmine/tools/Jasmine/jasmine.js"></script>
+  <script type="text/javascript" src="assets/jasmine/tools/Jasmine/jasmine-html.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+  <!--Source File -->
+
+  <script type="text/javascript" src="assets/js/prescreen.js"></script>
+  
+  <!-- spec file -->
+  <script type="text/javascript" src="assets/jasmine/specs/unitTest.js"></script>
+
+  <script type="text/javascript">
+          window.addEventListener("load", function onLoad() {
+        	var jasmineEnv = jasmine.getEnv(),
+      		reporter = new jasmine.TrivialReporter();
+
+        	jasmineEnv.addReporter(reporter);
+      	    setTimeout(function () {
+      		  jasmineEnv.execute();
+          }, 10);
+          
+          window.removeEventListener("load", onLoad, true);
+          }, true);
+  </script>
+
+</head>
+
+<body>
+</body>
+</html>
+
